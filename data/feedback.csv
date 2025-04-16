@@ -1,0 +1,9 @@
+email,rating,comment
+alice@example.com,5,Loved it
+bob@domain.org,3,Okay
+carol@host.org,4,Nice
+david@site.com,2,Meh
+emma@host.net,5,
+missing@email.com,4,Missing email
+noatsymbol.com,,
+eve@sample.net,3,Short

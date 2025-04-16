@@ -1,0 +1,27 @@
+[
+  {
+    "function": "load_feedback_data",
+    "args": ["spark", "data/feedback.csv"],
+    "expected": "DataFrame"
+  },
+  {
+    "function": "clean_missing_and_invalid_emails",
+    "args": ["df"],
+    "expected": "DataFrame"
+  },
+  {
+    "function": "compute_rating_stats",
+    "args": ["df"],
+    "expected": "dict"
+  },
+  {
+    "function": "count_ratings",
+    "args": ["df"],
+    "expected": "int"
+  },
+  {
+    "function": "most_common_rating",
+    "args": ["df"],
+    "expected": "int"
+  }
+]
